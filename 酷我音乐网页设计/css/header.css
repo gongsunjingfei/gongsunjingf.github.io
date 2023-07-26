@@ -1,0 +1,104 @@
+.header{
+    height: 67px;
+    line-height: 67px;
+    border-bottom: 1px solid red;
+}
+.head_logo img{
+    width: 140px;
+    height: 41px;
+    margin-top: calc((67px - 41px)/2);
+    margin-right: 40px;
+}
+
+
+
+
+/*更多*/
+
+.head_left>li{
+    padding: 0 14px;
+}
+.head_left>li:first-child{
+    font-weight: bold;
+    background-color: #ffe443;
+}
+.header_box>.head_left>li{
+    position: relative;
+}
+.header_box>.head_left>li>.downmenu{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 68px;
+    z-index: 99;
+    width: 150px;
+    height: 214px;
+    background-color: beige;
+}
+.header_box>.head_left>li>.downmenu>ul{
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    background-color: beige;
+}
+.header_box>.head_left>li>.downmenu>ul>li{
+    height: 50px;
+    line-height: 50px;
+    padding-left: 20px;
+}
+.header_box>.head_left>li>.downmenu>ul>li:hover{
+    background-color: cadetblue;
+}
+.header_box>.head_left>li>.downmenu>ul>li:last-child{
+    margin-bottom: 4px;
+}
+.header_box>.head_left>li:last-child:hover .downmenu{
+    display: block;
+}
+.header_box>.head_left>li:last-child .downmenu::before{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: red;
+    border-top-width: 0;
+}
+.header_box>.head_left>li:last-child span{
+    display: block;
+}
+.header_box>.head_left>li:last-child span:hover + .downmenu{
+    display: block;
+}
+.header_box>.head_left>li:last-child .downmenu:hover{
+    display: block;
+}
+
+.head_right input{
+    border: 0;
+    outline: none;
+    width: 270px;
+    height: 34px;
+    margin-right: 24px;
+    text-indent: 2em;
+    background-color: white;
+}
+.head_right span{
+    color: violet;
+    font-size: 14px;
+}
+.nav_box{
+    height: 54px;
+    line-height: 54px;
+}
+.nav_box ul li{
+    margin-right: 34px;
+}
+.nav_box ul li:nth-child(4) a{
+    border-bottom: 4px solid #ffe443;
+}

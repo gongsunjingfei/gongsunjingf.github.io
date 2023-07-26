@@ -1,0 +1,104 @@
+.footer_box .foot_top{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: #282828;
+}
+
+.foot_top .des{
+    height: 80px;
+    line-height: 80px;
+}
+
+.foot_top .des li{
+    width: 30%;
+    color: #fff;
+}
+
+.foot_top .des li:last-child{
+    width: 10%;
+}
+
+.foot_top .des_content{
+    height: 120px;
+    padding: 10px 0 50px 0;
+}
+
+.foot_top .des_content ul{
+    width: 30%;
+    height: 100%;
+    font-size: 14px;
+    color: gray;
+}
+.foot_top .des_content ul li:hover{
+    color: yellow;
+}
+.foot_top .des_content ul:nth-child(1) li{
+    width: calc(100%/3);
+}
+.foot_top .des_content ul:nth-child(1) li:nth-child(1){
+    text-align: left;
+}
+.foot_top .des_content ul:nth-child(1) li:nth-child(2){
+    text-align: center;
+    margin-left: -60px;
+}
+.foot_top .des_content ul:nth-child(1) li:nth-child(3){
+    text-align: center;
+}
+.foot_top .des_content ul:nth-child(1) li img{
+    width: 35px;
+    height: 35px;
+    margin-top: 30px;
+}
+.foot_top .des_content ul:nth-child(2) li,
+.foot_top .des_content ul:nth-child(3) li{
+    width: calc(100%/3);
+    height: 60px;
+    line-height: 60px;
+}
+.foot_top .des_content ul:nth-child(3) li:nth-child(5){
+    width: calc(100%/3 * 2);
+}
+.foot_top .des_content ul:nth-child(4){
+    width: 10%;
+}
+.foot_top .des_content ul:nth-child(4) li{
+    height: 60px;
+    line-height: 60px;
+}
+.foot_top .des_content ul:nth-child(4) li a{
+    color: gray;
+}
+.foot_top .des_content ul:nth-child(4) li:hover a{
+    color: yellow;
+}
+/*下部分*/
+.footer_box .foot_bottom{
+    padding-bottom: 50px;
+    background-color: #13130b;
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+}
+.footer_box .foot_bottom a{
+    color: gray;
+}
+.footer_box .foot_bottom p a:hover{
+    color: yellow;
+}
+.footer_box .foot_bottom .foot_line{
+    padding-top: 30px;
+    text-align: center;
+}
+.footer_box .foot_bottom .foot_line p{
+    display: inline-block;
+}
+.footer_box .foot_bottom .second_line{
+    padding: 30px 0;
+}
+.footer_box .foot_bottom .third_line{
+    padding-bottom: 80px;
+}
+.footer_box .foot_bottom .third_line span:hover{
+    color: yellow;
+}
